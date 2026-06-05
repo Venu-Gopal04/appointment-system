@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 
-const API = "http://127.0.0.1:8000";
+const API = "https://appointment-system-u4eb.onrender.com";
 
 export default function App() {
   const [form, setForm] = useState({ customer_name: "", phone_number: "", appointment_time: "" });
